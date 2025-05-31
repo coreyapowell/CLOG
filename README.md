@@ -11,7 +11,7 @@ CLOGGING is a flag that indicates whether or not we are CLOGGING at all. If the 
 unclog is a program that scans a file (the first parameter), let's say a file.mess.c ... a mess.c file full of CLOGs. it writes a second file, the second parameter, which would be a normal c file. the third parameter is a comma separated list of macro qualifier names ... like "CLOG,FLOG,BLOG". unclog strips out any lines that include any of the macro qualifiers. Those are the CLOGS, and unclog removes any lines that contain them. Also, unclog removes any following lines until the ; terminator is found. The entire lines are removed, so CLOGs can be multiple lines, but they should not share any lines with code you don't want removed.
 
 The end result is three levels of indirection. Complicated code can be riddled with CLOGS, a rightly disorderly mess.c file! 
-1) Redefining the CLOGGING flag and including the file before an inspected function and then after the function will only activate the CLOGS in that body of code. In this case, no code is emitted except the inspected body.
+1) Redefining the CLOGGING flag and including the file before an inspected function and then after the function will only activate the CLOGS in that body of code. In this case, no code is emitted except the inspected code.
 2) Defining CLOGGER allows modules to assign a CLOGGER that CLOGS or not. Setting CLOGGER to null silences the CLOGS. In this case, code branches around the FILE handle status.
 3) Removing the macros entirely makes your code ready for deployment, robbed and comment free! That also leaves base code in a state that other macros can be assigned to these values to generate documentation and modules, etc etc.
 
