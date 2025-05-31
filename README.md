@@ -12,7 +12,7 @@ unclog is a program that scans a file (the first parameter), let's say a file.me
 
 The end result is three levels of indirection. Complicated code can be riddled with CLOGS, a rightly disorderly mess.c file! 
 1) Redefining the CLOGGING flag and including the file before an inspected function and then after the function will only activate the CLOGS in that body of code. In this case, no code is emitted except the inspected code.
-2) Defining CLOGGER allows modules to assign a CLOGGER that CLOGS or not. Setting CLOGGER to null silences the CLOGS. In this case, code branches around the FILE handle status.
+2) Defining CLOGGER allows modules to assign a CLOGGER that CLOGS or not. Setting CLOGGER to null silences the CLOGS. In this case, code branches around the FILE handle status. But it also allows shared libraries to join their CLOGGERS together.
 3) Removing the macros entirely makes your code ready for deployment, robbed and comment free! That also leaves base code in a state that other macros can be assigned to these values to generate documentation and modules, etc etc.
 
 It's a simple home-rolled logging system, but it's quicker than tacking through a debugger. It's also funny the first time someone finds it in the code.
