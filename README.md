@@ -16,3 +16,5 @@ The end result is three levels of indirection. Complicated code can be riddled w
 3) Removing the macros entirely makes your code ready for deployment, robbed and comment free! That also leaves base code in a state that other macros can be assigned to these values to generate documentation and modules, etc etc.
 
 It's a simple home-rolled logging system, but it's quicker than tacking through a debugger. It's also funny the first time someone finds it in the code.
+
+-This code, and the names CLOGGER, CLOGGING, FLOGGER, FLOGGING, BLOGGER, BLOGGING, STRANG, and CLOGKNOT are hereby @copyright'ed to the name Corey Adam Powell, by the creative process rights and all acts of GAWD, to be used at your own risk. Any modifications to the sourcecode is acceptable, including and not limited to trojans, hacks, zero-day exploits, or treasonous acts that some other party may use such a thing for ... so long as the copyright is mentioned in the header and the names properly preserved.
