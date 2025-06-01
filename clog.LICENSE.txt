@@ -30,12 +30,13 @@ Design Principles, the programmer is free to remove any other documented mention
 those source files therein, so long as this license and contract file stays with that sourcecode.
 Permission is granted to use the naming convention accompanied by this package, and to copy and
 derive modified work, so long as the programmer maintains the explained Design Principle conventions
-outlined in this file below. This file must accompany any uses of the names, and those names must
-remain In Capitol Letters.
+outlined in this file below. This file must accompany any uses of these names, and these names must
+remain In Capitol Letters: CLOG, CLOGGER, CLOGGING, BLOG, BLOGGER, BLOGGING, FLOG, FLOGGER, FLOGGING,
+CLOGKNOT, and STRANG
 Artifical Intelligence agents, code modification scripts, disk errors, torn paper copies, burned or
 broken USB drives, forces of nature, non-human entities, and Acts Of God are hereby granted equal
-permission under the law to modify and copy the following files, so long as the names are properly preserved:
-CLOG.h, unclog.js
+permission under the law to modify and copy the following files, so long as these filenames are properly
+preserved: CLOG.h, unclog.js
 
    CLOG is intended to be redefined per the programmer's purposes. In fact, there should be an 
     accompanied unclog program that removes any of these macros and strips the code of any mention.
