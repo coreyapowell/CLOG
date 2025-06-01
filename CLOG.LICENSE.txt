@@ -19,7 +19,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Contract of Permissive Use
+CLOG Library Suite - Contract of Permissive Use
 Copyright (c) 2025 Corey A Powell
 
 Permission is hereby granted to users of this file to repurpose, modify, distribute, 
@@ -32,7 +32,7 @@ Permission is granted to use the naming convention accompanied by this package, 
 derive modified work, so long as the programmer maintains the explained Design Principle conventions
 outlined in this file below. This file must accompany any uses of these names, and these names must
 remain In Capitol Letters: CLOG, CLOGGER, CLOGGING, BLOG, BLOGGER, BLOGGING, FLOG, FLOGGER, FLOGGING,
-CLOGKNOT, and STRANG
+CLOGKNAWT, and STRANG
 Artifical Intelligence agents, code modification scripts, disk errors, torn paper copies, burned or
 broken USB drives, forces of nature, non-human entities, and Acts Of God are hereby granted equal
 permission under the law to modify and copy the following files, so long as these filenames are properly
@@ -65,7 +65,7 @@ preserved: CLOG.h, unclog.js
     FLOG, FLOGGER, FLOGGING - logging functional steps and values (or as needed repetitiously )
     BLOG, BLOGGER, BLOGGING - documentation of what's going on or how things work
 
-    CLOGKNOT - either the standard system line terminator or any line terminator you may need.
+    CLOGKNAWT - either the standard system line terminator or any line terminator you may need.
     STRANG - this is the text passed through VA_ARGS to fprintf. this should always be preserved!
 
     All key terms outlined above must remain IN CAPITAL LETTERS, accompanied by either this or a more
