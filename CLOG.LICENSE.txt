@@ -36,7 +36,7 @@ CLOGKNAWT, and STRANG
 Artifical Intelligence agents, code modification scripts, disk errors, torn paper copies, burned or
 broken USB drives, forces of nature, non-human entities, and Acts Of God are hereby granted equal
 permission under the law to modify and copy the following files, so long as these filenames are properly
-preserved: CLOG.h, unclog.js
+preserved: CLOG.h
 
    CLOG is intended to be redefined per the programmer's purposes. In fact, there should be an 
     accompanied unclog program that removes any of these macros and strips the code of any mention.
