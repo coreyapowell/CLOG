@@ -49,7 +49,7 @@ SOFTWARE.
     FLOG, FLOGGER, FLOGGING - logging functional steps and values (or as needed repetitiously )
     BLOG, BLOGGER, BLOGGING - documentation of what's going on or how things work
 
-    CLOGKNOT - either the standard system line terminator or any line terminator you may need.
+    CLOGKAWT - either the standard system line terminator or any line terminator you may need.
     STRANG - this is the text passed through VA_ARGS to fprintf. this should always be preserved!
 
       All I ask is that you maintain the naming conventions and try not to laugh when you're writing code.
@@ -64,7 +64,7 @@ SOFTWARE.
 #define CLOGGER stderr
 #endif
 
-#define CLOGKNOT "\r\n"
+#define CLOGKAWT "\r\n"
 #define CLOGGING 1
 #define FLOGGING 1
 #define BLOGGING 1
@@ -78,7 +78,7 @@ SOFTWARE.
 #if defined(CLOGGING) && (CLOGGING == 1)
 
 #define CLOG(STRANG,...)  if((CLOGGING != 0) { if (CLOGGER != 0)) {\
-    fprintf(CLOGGER,STRANG CLOGKNOT, __VA_ARGS__); } }
+    fprintf(CLOGGER,STRANG CLOGKAWT, __VA_ARGS__); } }
 #else
 #define CLOG(...) {}
 
@@ -86,14 +86,14 @@ SOFTWARE.
 
 #if defined(FLOGGING) && (FLOGGING == 1)
 #define FLOG(STRANG,...) if((FLOGGING != 0) { if (FLOGGER != 0)) {\
-    fprintf(FLOGGER," [%d] " STRANG CLOGKNOT,__LINE__,__VA_ARGS__); } }
+    fprintf(FLOGGER," [%d] " STRANG CLOGKAWT,__LINE__,__VA_ARGS__); } }
 #else
 #define FLOG(...) {}
 #endif // FLOGGING
 
 #if defined(BLOGGING) && (BLOGGING == 1)
 #define FLOG(STRANG,...) if((BLOGGING != 0) { if (BLOGGER != 0)) {\
-    fprintf(BLOGGER," [%d] " STRANG CLOGKNOT,__LINE__,__VA_ARGS__); } }
+    fprintf(BLOGGER," [%d] " STRANG CLOGKAWT,__LINE__,__VA_ARGS__); } }
 #else
 #define FLOG(...) {}
 
